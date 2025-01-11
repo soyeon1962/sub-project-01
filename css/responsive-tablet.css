@@ -1,0 +1,152 @@
+/*Import Local Scss Files*/
+/* Font Icon : Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/* Google Web Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Setting Variables : Font Family */
+/* Setting Variables : Text Color */
+/* Setting Variables : Object Color */
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+/*Responsive for Tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*##########Comon CSS##########*/
+  section:not(.front-slider) {
+    padding: 35px 10px;
+  }
+  [class*=inner] {
+    width: 100% !important;
+  }
+  /*Header*/
+  header .header-inner {
+    padding: 0 10px;
+  }
+  header .header-inner .search {
+    width: 300px;
+  }
+  header .mega-navi .mega-navi-inner {
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+  }
+  header .mega-navi .mega-navi-inner .mega-navi-item {
+    font-size: 13px;
+  }
+  /*section : Front Slider*/
+  /*section : Category Shortcut*/
+  .catergory-shorcut .catergory-shorcut-inner .catergory-shorcut-items .catergory-shorcut-item {
+    height: auto;
+    padding: 10px 0;
+  }
+  .catergory-shorcut .catergory-shorcut-inner .catergory-shorcut-items .catergory-shorcut-item span {
+    font-size: 14px;
+  }
+  /*section : Focus Class*/
+  /*section : Best Class*/
+  /*section : Timer*/
+  /*section : Eary-bird*/
+  /*section : Blog*/
+  .blog .blog-inner .blog-content .blog-items .blog-item {
+    flex: 1;
+  }
+  .blog .blog-inner .blog-content .blog-items .thum {
+    height: 160px;
+  }
+  /*section : Slogan*/
+  .slogan {
+    padding: 35px;
+  }
+  /*section : Tip-tech*/
+  .tip-tech .tip-tech-inner .tip-tech-content .tip-tech-wrap .tip-tech-items .tip-tech-item {
+    width: 100%;
+  }
+  .tip-tech .tip-tech-inner .tip-tech-content .tip-tech-wrap .tip-tech-items .tip-tech-item .thum {
+    display: none;
+  }
+  /*footer*/
+  footer {
+    padding: 30px 20px;
+  }
+  footer .footer-inner .lnb-wrap {
+    gap: 40px;
+  }
+  footer .footer-inner .copyright-wrap {
+    flex-direction: column;
+    width: 80%;
+    text-align: right;
+    margin: auto;
+  }
+  footer .footer-inner address {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  footer .footer-inner address br {
+    display: none;
+  }
+  /*############### class-detail.html ###############*/
+  /*class-detail-image*/
+  .class-detail-image .class-detail-image-inner {
+    height: 300px;
+    padding: 0 50px;
+  }
+  .class-detail-image .class-detail-image-inner .heading h2 {
+    font-size: 24px;
+  }
+  .class-detail-image .class-detail-image-inner .heading p {
+    font-size: 16px;
+  }
+  .class-detail-image .class-detail-image-inner .cover-image img {
+    height: 250px;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content {
+    flex-direction: column-reverse;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-introduce * img {
+    width: 70%;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-mentor .class-detail-wrap .mentor-profile-summary .mentor-class-button .btn-mentor-profile {
+    padding: 3px 10px;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-mentor .class-detail-wrap .class-detail-sidebar {
+    position: static;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-mentor .class-detail-wrap .class-detail-sidebar .group-sub-action button {
+    width: 100%;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-mentor .class-detail-wrap .class-detail-sidebar .class-detail-sidebar-wrap.group-required-info .overview .class-price {
+    justify-content: flex-end;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-mentor .class-detail-wrap .class-detail-sidebar .class-detail-sidebar-wrap.group-required-info .overview .class-price .sale {
+    margin-right: 30px;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-mentor .class-detail-wrap .class-detail-sidebar .class-detail-sidebar-wrap.group-required-info .overview .class-price .price-current {
+    margin-right: 50px;
+  }
+  /*############### Take Cource & Cart : take course.html ###############*/
+}/*# sourceMappingURL=responsive-tablet.css.map */
